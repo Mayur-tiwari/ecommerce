@@ -1,0 +1,103 @@
+.footer-container{
+    background-color: rgb(24,25,27);
+    color: white;
+    padding: 4vmax;
+    margin-bottom: 0px;
+}
+.footer-up{
+    padding-bottom: 8.2%;
+}
+.footer-up > div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.footer-up > div > input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    border:none;
+    width: 10%;
+    font: 400 1vmax cursive;
+    outline: none;
+    border-bottom: 1px solid rgb(72,73,78);
+    background: transparent;
+    color: white;
+}
+.footer-up > div > svg{
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.2vmax;
+}
+.footer-down{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo > img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+.footer-mid-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-tc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-mid-right > a, .footer-tc > a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+}
+.footer-socialmedia > span > svg{
+    width: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-up {
+        padding-bottom: 12%;
+    }
+    .footer-up > h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .footer-up > div > input {
+        width: 50%;
+        font: 400 2vmax cursive;
+    }
+    .footer-up > div > svg{
+        font-size: 2.4vmax;
+    }
+    .footer-down {
+        display: block;
+    }
+    .footer-logo {
+        width: 100%;
+    }
+    .footer-logo > img {
+        width: 20vmax;
+        margin: 1vmax;
+    }
+    .footer-mid-right {
+        display: block;
+    }
+    .footer-mid-right > a, .footer-tc > a {
+        font-size: 2vmax;
+    }
+}

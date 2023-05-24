@@ -1,0 +1,63 @@
+.admin-product-main{
+    top: 100px;
+    position: relative;
+    height: 130vh;
+}
+
+.admin-product-heading{
+    display: flex;
+    justify-content: space-around;
+}
+.admin-product-heading > h2{
+    font-family: cursive;
+    font-size: 2vmax;
+    font-weight: 100;
+    color: rgb(130,130,130);
+}
+.admin-product-heading > button{
+    background-color: rgb(86,144,255);
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    padding: 15px;
+}
+.admin-product-heading > button > a{
+    color: white;
+    font-weight: 100;
+}
+.admin-product-over{
+    margin: 20px 0px 10px 20px;
+    display: flex;
+    padding: 20px 0px 10px 20px;
+    justify-content: space-around;
+    text-align: start;
+}
+.admin-product-over > div{
+    width: 170px;
+    height: 80px;
+    padding: 10px;
+}
+.admin-product-over > div > p{
+    color: rgb(130,130,130);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.admin-product-over > div > h1{
+    color: rgb(86,144,255);
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.admin-products-table a, 
+.admin-products-table svg{
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+    font-size: 23px;
+}
+
+.admin-products-table a:hover{
+    color: tomato;
+}
+.admin-products-table button:hover{
+    color: rgb(236, 30, 30);
+}

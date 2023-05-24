@@ -1,0 +1,21 @@
+.aboutUs-top{
+    background-color: rgb(81,75,173);
+    height: 70vh;
+}
+.aboutUs-bottom{
+    background-color: rgb(247,248,250);
+    height: 30vh;
+}
+.aboutUs-info{
+    color: #ffffff;
+      Width: 50vw;
+      Height: 25vh;
+      position: absolute;
+      left:50%;
+      top:25%;
+      transform:translate(-50%, -50%);
+      text-align: center;
+}
+.aboutUs-info > h1{
+    padding: 5% 0% 5% 0%;
+}

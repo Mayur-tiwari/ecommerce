@@ -1,0 +1,80 @@
+.contact-main{
+    text-align: center;
+    background-color: rgb(249,249,251);
+}
+.contact-heading{
+    padding: 3% 0% 2% 0%;
+    color: rgb(15,16,73);
+    font-family: 'Roboto';
+}
+.contact-para{
+    color: rgb(75, 75, 75);
+    font-weight: 400;
+    font-size: 15px;
+}
+.contact-container{
+    display: flex;
+    margin: 4%;
+}
+.contact-left{
+    width: 40%;
+    background-color: rgb(62,31,146);
+    color: white;
+    text-align: start;
+    padding: 2%;
+    border-radius: 25px
+}
+.contact-left-heading{
+    margin: 5%;
+}
+.contact-left-para{
+    margin: 5%;
+    color: rgb(219, 219, 219);
+}
+/* rgb(250,148,157) */
+.contact-left > div{
+    display: flex;
+    margin: 10% 0% 10% 5%;
+}
+.contact-left > div > svg{
+    color: rgb(250,148,157);
+    padding-right: 2%;
+}
+.contact-right{
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.contact-form{
+    padding: 3%;
+    margin: auto;
+}
+.contact-form-div{
+    display: flex;
+    height: 5vmax;
+    margin: 3% 0% 3% 10%;
+    padding: 2% 0% 2% 0%;
+}
+.contact-form-div > div{
+    margin-right: 10%;
+    width: 220px;
+    text-align: start;
+}
+.contact-form-div > div > p{
+    text-align: start;
+    color: rgb(75,75,75);
+    margin-bottom: 20px;
+}
+.contact-form-div > div > input{
+    border: none;
+    border-bottom: 1px solid rgb(161, 159, 157);
+    width: 200px;
+}
+.contact-btn{
+    width: 150px;
+    height: 3vmax;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(62,31,146);
+    color: #ffffff
+}

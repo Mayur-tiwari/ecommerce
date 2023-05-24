@@ -1,0 +1,63 @@
+.dashboard{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.dashboard-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 55px;
+    color: white;
+    margin-bottom: 90px;
+    padding-bottom: 40px;
+}
+.details-div{
+    width: 24vmax;
+    height: 7vmax;
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+}
+.details-div > div > p{
+    font-weight: 500;
+    margin: 5px;
+    font-size: 16px;
+    font-family: cursive;
+}
+.details-div > div > h3{
+    font-weight: 500;
+    margin: 5px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.details-div > div > button{
+    margin: 5px;
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+    width: 80px;
+    height: 25px;
+}
+.details-div > div > svg{
+    width: 155px;
+    height: 25px;
+    margin: 35px 0px 0px 20px;
+}
+.order-complete{
+    background-color: rgb(12,178,168);
+}
+.order-processing{
+background-color: rgb(6,139,229);
+}
+.order-pending{
+background-color: rgb(247,101,19);
+}
+.total-users{
+background-color: rgb(216,24,65);
+}
+.total-products{
+background-color: rgb(97,81,235);
+}

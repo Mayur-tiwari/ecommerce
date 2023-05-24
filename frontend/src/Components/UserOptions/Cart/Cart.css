@@ -1,0 +1,214 @@
+.cart-main{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.cart-container-left{
+    width: 70%;
+    padding: 4% 8%;
+}
+.cart-heading{
+    display: flex;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    justify-content: space-between;
+    padding: 20px;
+}
+.cart-container-right{
+    width: 30%;
+    background-color: rgb(244,244,244);
+    padding: 4% 4%;
+}
+.cart-product{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(75, 75, 75);
+    margin-top: 2%;
+}
+.cart-details{
+    width: 40%;
+}
+.card{
+    display: flex;
+    width: 100%;
+    top: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+.CartItemCard-main{
+    width: 70%;
+}
+.CartItemCard{
+   display: flex; 
+}
+.CartItemCard > img{
+    width: 100px;
+    height: 110px;
+}
+.CartItemCard-div{
+    display: flex;
+    width: 70%;
+}
+.CartItemCard-div1{
+    width: 75%;
+    word-wrap: break-word;
+    text-align: center;
+}
+.CartItemCard-div2{
+    width: 22%;
+    text-align: center;
+}
+
+    .cartInput>input {
+        border: none;
+        padding: 0.5vmax;
+        width: 3vmax;
+        text-align: center;
+        outline: none;
+        font: 400 1vmax "Roboto";
+        color: rgba(0, 0, 0, 0.74);
+}
+.cartInput > .button {
+    background-color: rgb(98,98,98);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .cartSubtotal{
+    width: 13%;
+    text-align: end;
+    margin-left: 1%;
+  }
+  .cartSubtotal-para{
+    display: none;
+  }
+  .remove-btn{
+    background-color: tomato;
+    color: white;
+    border: navy;
+    padding: 5px;
+    width: 6vmax;
+    margin: auto;
+    margin-top: 1vmax;
+    height: 2vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+.remove-btn:hover{
+    background-color: rgb(190, 64, 42);
+}
+.orderSummary-div{
+    width: 50%;
+    margin: auto;
+    margin-top: 13px;
+    border-bottom: 1px solid rgb(75,75,75);
+    padding: 16px;
+}
+.totalItem-div{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(75,75,75);
+}
+.totalCost-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(75,75,75);
+}
+.checkout-btn{
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 100px;
+    background-color: rgb(91,81,215);
+    border: none;
+    padding: 8px;
+    width: 100px;
+    border-radius: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.checkout-btn:hover{
+    background-color: rgb(45, 35, 180);
+    color: #ffffff;
+}
+.emptyCart{
+    margin: auto;
+    text-align: center;
+    padding: 10vmax;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emptyCart > svg {
+    font-size: 5vmax;
+    color: tomato;
+}
+.emptyCart > p{
+    font-size: 2vmax;
+}
+.emptyCart > a{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: none;
+    padding: 1vmax 2vmax;
+    cursor: pointer;
+    font: 400 1vmax "Roboto";
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .cart-product {
+        display:none
+    }
+    .cart-main {
+        display: block;
+    }
+    .card {
+        display: block;
+    }
+    .CartItemCard-main {
+        width: 100%;
+    }
+    .cart-container-left {
+        padding: 6% 2% 4% 2%;
+        width: 96%;
+    }
+    .CartItemCard > img {
+        width: 85px; 
+    height: 90px;
+    }
+    .CartItemCard-div {
+        display: flex;
+    width: 70%;
+    padding: 12px;
+    }
+    .remove-btn {
+        width: 12vmax;
+        height: 4vmax;
+    }
+    .cartInput {
+        text-align: center;
+    }
+    .cartInput>input {
+        width: 7vmax;
+        font: 400 3vmax "Roboto";
+    } 
+    .cartSubtotal {
+        text-align: center;
+    }
+    .cartSubtotal-para{
+        display:block;
+        margin: 6px 0px;
+      }
+      .cart-container-right {
+        width: 92%;
+        background-color: #ffffff;
+    }
+}
